@@ -173,8 +173,47 @@
   );
   border-radius: 5px;
  }
+ .fr
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(128, 9, 255);
+}
 
-<<<<<<< HEAD
+
+
+.cherry
+{
+    background-image: url(../img/tsiwrat/desktop/image-graphic-design.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cherry-text
+{
+    text-align: center;
+    padding-inline: 24%;
+    padding-top: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    line-height: 1.5rem;
+}
+
+
+.orange
+{
+    background-image: url(../img/tsiwrat/desktop/image-photography.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
  /*versio mobile*/
 
  @media (max-width: 480px) {
@@ -264,32 +303,7 @@ a {
         align-items: start;
         font-weight: bold;
     }
-
-
-
-}
-=======
- .inside-right2 {
-     text-align: start;
-     display: flex;
-     flex-direction: column;
-     gap: 5vh;
-     position: absolute;
-     top: 35vh;
-     left: 10vw;
-     width: 65%;
-     color: #001B3A;
-     font-size: 18px;
- }
- .inside-right2 >a {
-     color: #001B3A;
-     width: fit-content;
-     background: linear-gradient(rgba(255, 255, 0, 0.449), rgba(255, 255, 0, 0.455)) no-repeat;
-    background-size: 150px 10px;
-    background-position: center;
-}
-
-.fr
+    .fr
 {
     display: flex;
     flex-direction: row;
@@ -331,4 +345,5 @@ a {
 }
 
 
->>>>>>> 961999d42e0831339f860eaa9d88f64c2b6e1b80
+
+}
