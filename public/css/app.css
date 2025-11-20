@@ -31,26 +31,44 @@
      font-weight: bold;
  }
 
+
  a {
      text-decoration: none;
  }
-
- .clr {
-     color: white;
+ h1 {
+    transition: 0.5s;
+ }
+ h1:hover {
+    color: orange;
  }
 
- .but {
-     padding: 1vh 2vw;
-     border: none;
-     border-radius: 20px;
- }
+.clr {
+    color: white;
+    transition: transform 0.2s;
 
- .midd {
-     position: relative;
-     color: white;
-     font-size: 25px;
-     display: flex;
-     flex-direction: column;
+}
+.clr:hover {
+    color: orange;
+    outline: none;
+    transform: translateY(-2px);
+}
+
+.but {
+    padding: 1vh 2vw;
+    border: none;
+    border-radius: 20px;
+    color: orange;
+    transition: 0.3s;
+}
+.but:hover {
+    box-shadow: 0 20px 38px rgba(255, 140, 0, 0.35);
+}
+
+.midd {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
      /* gap: 500vh; */
      /* text-align: center; */
