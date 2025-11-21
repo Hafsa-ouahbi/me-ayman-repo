@@ -317,12 +317,6 @@ a
 
 
 
-
-
-
-
-
-
  /*versio mobile*/
 
  @media (max-width: 480px) {
@@ -457,6 +451,26 @@ a {
     background-size: cover;
     background-position: center;
 }
+
+.client
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+.client > div
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 5vh;
+}
+
+.client > div >img
+{
+    width: 100%;
+    height: 100%;
+}
+
 
 
 
