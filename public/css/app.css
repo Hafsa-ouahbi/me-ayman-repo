@@ -31,11 +31,11 @@
 }
 
  .display {
-     display: flex;
-     justify-content: space-between;
-     padding-top: 5vh;
-     padding-left: 3vw;
-     padding-right: 3vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
  }
 
  .list {
@@ -324,6 +324,7 @@ li:hover {
     .hero {
         background-image: url(../img/tsiwrat/mobile/image-header.jpg);
         height: 100vh;
+        padding-left: 2vw;
     }
 
 .sec, .th
@@ -452,7 +453,9 @@ a {
     background-size: cover;
     background-position: center;
 }
-
+.display {
+    padding-top: 2vh;
+}
 
 
 }
