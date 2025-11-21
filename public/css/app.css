@@ -290,6 +290,32 @@
     height: 100%;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: hsl(167, 44%, 70%);
+    align-items: center;
+    gap: 5vh;
+
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+    list-style: none;
+}
+
+a 
+{
+    text-decoration: none;
+    color: hsl(167, 31%, 44%);
+}
+
+
+
 
 
 
